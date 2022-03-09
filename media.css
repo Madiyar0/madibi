@@ -1,0 +1,480 @@
+@media screen and (max-width: 2560px){
+	
+}
+@media screen and (max-width: 1500px){
+	
+}
+@media screen and (max-width: 1400px){
+	.mazga {
+		display: block;
+	}
+  .maxmen {
+    display: none;
+  }
+}
+@media screen and (max-width: 1200px){
+	.container{
+		width: 1140px;	
+	}
+  .maxmen {
+    display: none;
+  }
+}
+@media screen and (max-width: 1199px){
+	.container{
+		width: 960px;	
+	}
+  .hr {
+    width: 100%;
+  }
+  .blocks {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .div {
+    width: 400px;
+    margin-top: 50px;
+  }
+  .menu_wrap p {
+    display: none;
+  }
+  .menu_wrapper ul {
+    width: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+  }
+  .maxmen {
+    display: none;
+  }
+}
+@media screen and (max-width: 991px){
+	.container{
+		width: 720px;	
+	}
+	.blocks {
+   	display: flex;
+   	flex-wrap: wrap;
+   }
+   .div {
+   	margin-top: 25px;
+   }
+	.about {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .menu_wrapper ul {
+   	display: flex;
+   	align-items: center;
+   	justify-content: space-between;
+   	width: 100%;
+   }
+   .mask_txt {
+   	margin-top: -100px;
+   }
+   .block5 {
+	margin-top: 120px;
+	background-image: url('img/123.png');
+background-repeat: no-repeat;
+background-size: 100%;
+min-height: 100px;
+background-repeat: no-repeat;
+ background-size: cover;
+}
+
+   .block7 {
+	padding-bottom: 10px;
+	padding-top: 0;
+}
+   .menu_wrapper ul li {
+   	font-size: 10px;
+   	margin: 5px;
+   }
+   .about_txt {
+   	margin-top: 20px;
+   text-align: center;
+   margin-left: -10px;
+   }
+   .about_content img {
+   	width: 100%;
+   }
+   .default {
+   	text-align: center;
+   }
+   .default {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: center;
+   }
+   .mezu {
+   	display: none;
+   }
+   .header {
+   	display: flex;
+   	align-items: center;
+   	justify-content: space-around;
+   }
+   .add {
+   	margin-left: 250px;
+   }
+   .block7 .maxmen {
+  	display: block;
+
+
+  }
+  .samruk {
+  	display: none;
+  }
+  .maxmen {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  }
+  .max {
+  	margin-left: 255px;
+  }
+  .hr {
+  	width: 100%;
+  }
+  .lists {
+   	display: none;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .lists ul {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   	margin-top: 15px;
+   }
+   .hr {
+   	display: none;
+   	width: 100%;
+   }
+  .abc {
+  	margin-top: 40px;
+  	display: flex;
+  	flex-direction: column;
+  }
+  .social {
+  	margin-top: 10px;
+  	display: flex;
+  	flex-direction: column;
+  }
+  .man {
+  	margin-top: 10px;
+  	width: 100px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+  }
+   .about_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .moscow{
+  width: 100%;
+  } 
+  .about_wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .about_wrapper p {
+    width: 300px;
+  }
+  .tifa {
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+
+}
+@media screen and (max-width: 767px){
+	.container{
+		width: 540px;	
+	}
+	.maxmen{
+	display: none;
+}
+
+}
+@media screen and (max-width: 575px){
+	.container{
+		width: 100%;
+		/*padding:0 15px;*/
+		/*border:1px solid red;*/ 	
+	}
+	.mask_txt {
+		display: none;
+	}
+	.mazga {
+		display: block;
+	}
+	.add {
+		width: 100%;
+	}
+	.menu {
+		display: block;
+	}
+	.menu_wrap {
+		margin:0 auto;
+	}
+	.menu_wrap p {
+		display: none;
+	}
+	.header {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+	}
+    .add {
+    	display: none;
+    	flex-direction: column;
+    }
+    .address {
+    	margin-top: 10px;
+    }
+    .menu {
+    	/*border:1px solid;*/
+   /* 	display: flex;
+    	flex-direction: column;*/
+    }
+    .menu_wrapper {
+    	margin-top: 10px;
+    	width: 300px;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
+    	text-align: center;
+    	margin-left: -40px;
+    /*	margin-right: 255px;*/
+
+    }
+    .menu_wrapper ul{
+    	/*display: block;*/
+        display: none;
+    }
+    .menu_wrapper ul li {
+    	margin-top: 5px;
+    }
+ 
+   .blocks {
+   	display: flex;
+   	flex-direction: column;
+   }
+   .div {
+   	margin-top: 25px;
+   }
+   .block5 .price_content {
+   	height: 302px;
+   }
+   .price_content {
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   }
+   .defaults {
+   	margin-top: -20px;
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   	height: 302px;
+   }
+   .magic {
+   	display: none;
+   }
+   .about {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .about_txt {
+   	margin-top: 20px;
+   text-align: center;
+   margin-left: -10px;
+   }
+   .about_content img {
+   	width: 100%;
+   }
+   .default {
+   	text-align: center;
+   }
+   .default {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: center;
+   }
+   .default p {
+   	margin-left: 10px;
+   }
+   .defaults {
+   	text-align: center;
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: center;
+   }
+   .samruk {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .samruk img {
+   	margin-top: 15px;
+   }
+   .adres {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .gis {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: center;
+   	text-align: center;
+   	margin-top: 20px;
+   }
+   .lists {
+   	display: none;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   }
+   .lists ul {
+   	display: flex;
+   	flex-direction: column;
+   	align-items: center;
+   	justify-content: space-between;
+   	margin-top: 15px;
+   }
+   .hr {
+   	display: none;
+   	width: 100%;
+   }
+  .abc {
+  	margin-top: 40px;
+  	display: flex;
+  	flex-direction: column;
+  }
+  .social {
+  	margin-top: 10px;
+  	display: flex;
+  	flex-direction: column;
+  }
+  .man {
+  	margin-top: 10px;
+  	width: 100px;
+  	display: flex;
+  	align-items: center;
+  	justify-content: space-around;
+  }
+  .block7 {
+  	padding-bottom: 20px;
+  	padding-top: 0;
+  }
+  .block7 .maxmen {
+  	display: block;
+
+
+  }
+  .samruk {
+  	display: none;
+  }
+  .maxmen {
+  	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  }
+  .maxmen .max img{
+  	/*margin-left: 5px;*/
+  }
+  .max {
+  	margin-left: 85px;
+  }
+.menu .mainstream {
+  	margin-left: 170px;
+  }
+  .about_wrap {
+    display: flex;
+    flex-direction: column;
+  }
+  .moscow{
+  width: 100%;
+  } 
+  .about_wrapper {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-right: 50px;
+  }
+  .about_wrapper p {
+    width: 300px;
+  }
+  .cer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .tifa {
+    margin-top: 20px;
+    margin-right: 40px;
+  }
+   /*.mask_txt {
+   	display: none;
+   }*/
+}
+
+@media screen and (max-width: 575px){
+	.max{
+		margin-left:100px;
+	}
+	.mask_txt p{
+		width:520px;
+	}
+/*	.mask_txt  {
+  	display: none;
+  }*/
+}
+
+@media screen and (max-width: 414px){
+	.menu .mainstream {
+  	margin-left: 170px;
+  }
+}
+@media screen and (max-width: 360px){
+	.menu .mainstream {
+  	margin-left: 120px;
+  }
+}
+@media screen and (max-width: 393px){
+	.menu .mainstream {
+  	margin-left: 150px;
+  }
+ 
+  /*.mask_txt  {
+  	display: none;
+  }*/
+}
